@@ -31,10 +31,10 @@ for t in range(triangle_side_len+1):
 
 """Graph the Triangle"""
 figure, graph = plt.subplots()
-graph.plot(x_values, y_values, linewidth=3, color='white')
+graph.plot(x_values, y_values, linewidth=3, color='gold')
 
 """Added a title and x and y axis lables"""
-graph.set_title('The Deathly Hallows', fontsize=8, loc='left')
+graph.set_title('The Deathly Hallows', fontsize=8, loc='left', color='gold')
 graph.set_xlabel('Power Output',fontsize=10, color='darkred')
 graph.set_ylabel('Living Outcome', fontsize=10, color='limegreen')
 
